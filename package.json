@@ -1,0 +1,16 @@
+{
+  "name": "rywd",
+  "version": "1.0.0",
+  "description": "the best portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build:copy": "node src/js/build.js",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./build/output.css",
+    "build": "npm run build:copy && npm run build:css",
+    "dev": "npm run build && npx serve ./build"
+  },
+  "keywords": [],
+  "author": "ryan wood",
+  "license": "MIT",
+  "type": "module"
+}
