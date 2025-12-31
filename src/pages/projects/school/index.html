@@ -21,21 +21,59 @@
         class="font-jetbrains relative min-h-screen bg-yellow-50 font-medium text-[14px] leading-tight text-zinc-900 select-text flex flex-col items-center cursor-default"
     >
         <!-- top link  -->
-        <header class="w-full max-w-xl px-4 pt-12 pb-0 font-medium sticky">
+      <header class="w-full max-w-xl px-4 py-12 bg-linear-to-b from-yellow-50 from-80% via-95% to-transparent font-medium fixed">
         <a
-            href="/projects"
-            class="group text-lg md:text-xl font-medium underline decoration-2 underline-offset-3 hover:text-stone-500"
+          href="/projects"
+          class="group text-lg md:text-xl font-medium underline decoration-2 underline-offset-3 hover:text-stone-500"
         >
-            rywd.ca<span class="inline-block opacity-0 group-hover:opacity-25 ml-2">(</span><span class="inline-block opacity-0 group-hover:opacity-50">cd ..</span><span class="inline-block opacity-0 group-hover:opacity-15">)</span>
+          rywd.ca<span class="inline-block opacity-0 group-hover:opacity-25 ml-2 bg-yellow-50">(</span><span class="inline-block opacity-0 group-hover:opacity-50">cd ..</span><span class="inline-block opacity-0 group-hover:opacity-15">)</span>
         </a>
-        </header>
-        
+      </header>
+      <div class="h-31"></div>
         <!-- main -->
-        <article class="w-full max-w-xl px-4 py-12 font-normal">
+        <article class="w-full max-w-xl px-4 pb-12 font-normal">
         <p class="pb-1">
             <strong class="text-green-800">ryan</strong>@<strong class="text-green-800">rywd.ca</strong>:~/projects/school<span class="text-yellow-600">$</span>
             <strong class="inline font-normal"> ls -a</strong>
         </p>
+        <!-- list -->
+        <a
+          href="/projects/amplifier"
+          class="block"
+        >
+          <div class="bg-amber-100 px-1 py-1.5 flex items-center justify-between group cursor-pointer">
+            <span class="font-medium group-hover:underline group-hover:text-stone-500 text-left">
+              Microwave BJT Amplifier
+            </span>
+            <span class="text-right">Dec. 2025</span>
+          </div>
+        </a>
+
+        <a
+          href="/projects/patch-array"
+          class="block"
+        >
+          <div class="bg-stone-300 px-1 py-1.5 flex items-center justify-between group cursor-pointer">
+            <span class="font-medium group-hover:underline group-hover:text-stone-500 text-left">
+              Patch Antenna Array
+            </span>
+            <span class="text-right">Dec. 2025</span>
+          </div>
+        </a>
+      
+        <a
+          href="/projects/metasurface-reflector"
+          class="block"
+        >
+          <div class="bg-amber-100 px-1 py-1.5 flex items-center justify-between group cursor-pointer">
+            <span class="font-medium group-hover:underline group-hover:text-stone-500 text-left">
+              2.4GHz Tuned Metasurface Reflector
+            </span>
+            <span class="text-right">Dec. 2025</span>
+          </div>
+        </a>
+        
+
         </article>
     </main>
 </body>
