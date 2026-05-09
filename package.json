@@ -12,5 +12,9 @@
   "keywords": [],
   "author": "ryan wood",
   "license": "",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
 }
